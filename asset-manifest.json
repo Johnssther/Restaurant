@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Johnssther/Restaurant.git/static/css/main.487c4d0d.chunk.css",
-    "main.js": "/Johnssther/Restaurant.git/static/js/main.b6b0aefe.chunk.js",
-    "main.js.map": "/Johnssther/Restaurant.git/static/js/main.b6b0aefe.chunk.js.map",
-    "runtime-main.js": "/Johnssther/Restaurant.git/static/js/runtime-main.918cd2be.js",
-    "runtime-main.js.map": "/Johnssther/Restaurant.git/static/js/runtime-main.918cd2be.js.map",
-    "static/js/2.7be277af.chunk.js": "/Johnssther/Restaurant.git/static/js/2.7be277af.chunk.js",
-    "static/js/2.7be277af.chunk.js.map": "/Johnssther/Restaurant.git/static/js/2.7be277af.chunk.js.map",
-    "static/js/3.be253cee.chunk.js": "/Johnssther/Restaurant.git/static/js/3.be253cee.chunk.js",
-    "static/js/3.be253cee.chunk.js.map": "/Johnssther/Restaurant.git/static/js/3.be253cee.chunk.js.map",
-    "index.html": "/Johnssther/Restaurant.git/index.html",
-    "static/css/main.487c4d0d.chunk.css.map": "/Johnssther/Restaurant.git/static/css/main.487c4d0d.chunk.css.map",
-    "static/js/2.7be277af.chunk.js.LICENSE.txt": "/Johnssther/Restaurant.git/static/js/2.7be277af.chunk.js.LICENSE.txt"
+    "main.css": "/Johnssther/Restaurant/static/css/main.487c4d0d.chunk.css",
+    "main.js": "/Johnssther/Restaurant/static/js/main.f91a6881.chunk.js",
+    "main.js.map": "/Johnssther/Restaurant/static/js/main.f91a6881.chunk.js.map",
+    "runtime-main.js": "/Johnssther/Restaurant/static/js/runtime-main.e7fbc210.js",
+    "runtime-main.js.map": "/Johnssther/Restaurant/static/js/runtime-main.e7fbc210.js.map",
+    "static/js/2.7be277af.chunk.js": "/Johnssther/Restaurant/static/js/2.7be277af.chunk.js",
+    "static/js/2.7be277af.chunk.js.map": "/Johnssther/Restaurant/static/js/2.7be277af.chunk.js.map",
+    "static/js/3.be253cee.chunk.js": "/Johnssther/Restaurant/static/js/3.be253cee.chunk.js",
+    "static/js/3.be253cee.chunk.js.map": "/Johnssther/Restaurant/static/js/3.be253cee.chunk.js.map",
+    "index.html": "/Johnssther/Restaurant/index.html",
+    "static/css/main.487c4d0d.chunk.css.map": "/Johnssther/Restaurant/static/css/main.487c4d0d.chunk.css.map",
+    "static/js/2.7be277af.chunk.js.LICENSE.txt": "/Johnssther/Restaurant/static/js/2.7be277af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.918cd2be.js",
+    "static/js/runtime-main.e7fbc210.js",
     "static/js/2.7be277af.chunk.js",
     "static/css/main.487c4d0d.chunk.css",
-    "static/js/main.b6b0aefe.chunk.js"
+    "static/js/main.f91a6881.chunk.js"
   ]
 }
