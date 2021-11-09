@@ -68,5 +68,12 @@ export const products = [
         price: 16000,
         background: '#7F3E1A',
         color: '#fff'
+      },
+      {
+        name:'Limonada',
+        img: 'https://cdn.pixabay.com/photo/2017/05/19/07/34/teacup-2325722_960_720.jpg',
+        price: 7500,
+        background: '#7F3E1A',
+        color: '#fff'
       }
   ]
