@@ -16,7 +16,7 @@ const Product = (props) => {
   };
 
   return (
-    <div className="card" style={{background:`${count ? background : 'white'}`, color:`${count ? 'white' : 'black'}`}}>
+    <div className="card">
       <div className="img">
         <img src={img} alt={name} />
         <p className="product_name">{name}</p>
@@ -25,7 +25,7 @@ const Product = (props) => {
         <h3>{`$ ${numberf(price)}`}</h3>
         <p>{`(Total: $ ${numberf(price * count)})`}</p>
       </div>
-      <div className="options">
+      <div className="options" style={{background:`${count && 'orange'}`}}>
         <button type="button" className={`${count ? 'btn' : 'btn-disabled'}`} onClick={() => removeProduct()}>-</button>
         {`${count} uds`}
         <button type="button" className="btn" onClick={() => addProduct()}>+</button>
