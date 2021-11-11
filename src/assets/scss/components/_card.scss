@@ -1,9 +1,10 @@
 .card {
+  background: rgb(255, 255, 255);
   width: 20rem;
   height: 25rem;
   border-radius: 1rem;
   transition: 1s ease all;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 .img img {
   width: 100%;
@@ -25,13 +26,14 @@
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight:700;
 }
 .price {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 3rem;
 }
 .options {
   display: flex;
@@ -40,23 +42,30 @@ h3 {
 }
 .options .btn {
   padding: .7rem;
-  width: 15%;
+  width: 2.4rem;
   border: none;
-  background: green;
+  background: #3E70A1;
   color: white;
-  border-radius: .3rem;
+  border-radius: 50%;
   cursor: pointer;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .options .btn:hover {
- background: rgb(4, 87, 4);
+ background: #345d86;
  color: black;
- border: 1px solid green;
 }
 .options .btn-disabled {
   padding: .7rem;
-  width: 15%;
+  width: 2.4rem;
   border: none;
   background: rgba(61, 66, 61, 0.26);
   color: white;
-  border-radius: .3rem;
+  border-radius: 50%;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

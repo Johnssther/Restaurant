@@ -16,14 +16,14 @@ const Product = (props) => {
   };
 
   return (
-    <div className="card" style={{ background }}>
+    <div className="card" style={{background:`${count ? background : 'white'}`, color:`${count ? 'white' : 'black'}`}}>
       <div className="img">
         <img src={img} alt={name} />
         <p className="product_name">{name}</p>
       </div>
       <div className="price">
         <h3>{`$ ${numberf(price)}`}</h3>
-        <p>{`(Total: $ ${numberf(price * count)}`}</p>
+        <p>{`(Total: $ ${numberf(price * count)})`}</p>
       </div>
       <div className="options">
         <button type="button" className={`${count ? 'btn' : 'btn-disabled'}`} onClick={() => removeProduct()}>-</button>
