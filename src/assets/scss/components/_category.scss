@@ -1,0 +1,21 @@
+.category {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    padding: 1px;
+    &:hover {
+      background-color: rebeccapurple;
+      padding: 1px;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        img {
+            width: 70%;
+            height: 70%;
+            border-radius: 1rem;
+        }
+    }
+}
