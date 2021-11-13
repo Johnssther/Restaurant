@@ -8,7 +8,7 @@ import {
 import Products from "./views/products/Products";
 import Home from "./views/home/Home";
 
-export default function App() {
+export default function Rutas() {
   return (
     <Router>
       <div>

@@ -17,9 +17,9 @@ const Product = (props) => {
 
   return (
     <div className="card">
+      <p className="product_name">{name}</p>
       <div className="img">
         <img src={img} alt={name} />
-        <p className="product_name">{name}</p>
       </div>
       <div className="price">
         <h3>{`$ ${numberf(price)}`}</h3>

@@ -1,11 +1,12 @@
 import 'src/assets/scss/main.scss';
 import Products from 'src/views/products/Products';
-import Router from 'src/routes';
+import Rutas from 'src/routes';
 
 function App() {
   return (
     <>
-      <Router />
+    <Rutas />
+      {/* <Category /> */}
       {/* <Home /> */}
     </>
   );
