@@ -1,11 +1,11 @@
 import 'src/assets/scss/main.scss';
 import Products from 'src/views/products/Products';
-import Home from './views/home/Home';
+import Router from 'src/routes';
 
 function App() {
   return (
     <>
-      <Products />
+      <Router />
       {/* <Home /> */}
     </>
   );
